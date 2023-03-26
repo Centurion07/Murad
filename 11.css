@@ -1,0 +1,16 @@
+body{
+    background-image: url("kino.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 50px;
+    position: relative;
+    margin-left: 43%;
+    align-items: center;
+    box-sizing: border-box;
+    color: white;
+}

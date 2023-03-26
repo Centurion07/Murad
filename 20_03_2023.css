@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#kino{
+    position: absolute;
+    width: 935px;
+    height: 700px;
+    background-image: url("2223.jpg");
+    border: black 3px solid;
+    border-radius: 10%;
+
+}
+
+#filter{
+    position: absolute;
+    width: 935px;
+    height: 700px;
+    border: black 3 px solid;
+    border-radius: 10%;
+animation: filter1 8s forwards infinite;
+}
+
+@keyframes filter1 {
+    0%{
+    background-color: rgba(83,72,227,0.53);
+}
+    25%{
+        background-color: rgba(227, 72, 100, 0.53);
+    }
+    55%{
+        background-color: rgba(134, 227, 72, 0.53);
+    }
+    75%{
+        background-color: rgba(227, 126, 72, 0.53);
+    }
+    100%{
+        background-color: rgba(72, 126, 227, 0.53);
+    }
+}
+
+
